@@ -11,4 +11,6 @@ add_executable(PROYECTOAED
         src/SparseMatrix.cpp
         include/SparseMatrix.h
         include/Node.h
+        include/RowHeader.h
+        include/ColHeader.h
 )

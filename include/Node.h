@@ -4,8 +4,9 @@
 #include <string>
 using namespace std;
 
-class Node {
+class Node{
 public:
+
     int row;
     int col;
     string value;
@@ -13,7 +14,8 @@ public:
     Node* nextInRow;
     Node* nextInCol;
 
-    Node(int r, int c, string val) {
+    Node(int r,int c,string val)
+    {
         row = r;
         col = c;
         value = val;
