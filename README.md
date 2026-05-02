@@ -1,7 +1,7 @@
 # Proyecto 1 — Hoja de Cálculo con Matriz Dispersa
 
 Curso: Algoritmos y Estructuras de Datos  
-Lenguaje: C++17 | GUI: Qt5
+Lenguaje: C++17 | GUI: Qt6
 
 ---
 
@@ -28,8 +28,7 @@ README.md
 
 ### Requisitos
 - CMake ≥ 3.16
-- Compilador C++17 (GCC 11+ o Clang 13+)
-- Qt5 Widgets (opcional, para la GUI)
+- Compilador C++17 
 
 ### Ubuntu/Debian
 ```bash
@@ -46,10 +45,10 @@ make
 
 ### Ejecutar GUI
 ```bash
-./build/PROYECTOAED_gui
+./build/PROYECTOAED_guigit status
 ```
 
----
+---s
 
 ## Operaciones implementadas
 
