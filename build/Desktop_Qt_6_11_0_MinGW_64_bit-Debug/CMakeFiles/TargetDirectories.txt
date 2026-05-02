@@ -1,8 +1,0 @@
-C:/Users/hp/OneDrive - UNIVERSIDAD DE INGENIERIA Y TECNOLOGIA/Escritorio/proyectooooo/Proyecto-AED/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/PROYECTOAED_console.dir
-C:/Users/hp/OneDrive - UNIVERSIDAD DE INGENIERIA Y TECNOLOGIA/Escritorio/proyectooooo/Proyecto-AED/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/PROYECTOAED_gui.dir
-C:/Users/hp/OneDrive - UNIVERSIDAD DE INGENIERIA Y TECNOLOGIA/Escritorio/proyectooooo/Proyecto-AED/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
-C:/Users/hp/OneDrive - UNIVERSIDAD DE INGENIERIA Y TECNOLOGIA/Escritorio/proyectooooo/Proyecto-AED/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
-C:/Users/hp/OneDrive - UNIVERSIDAD DE INGENIERIA Y TECNOLOGIA/Escritorio/proyectooooo/Proyecto-AED/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/PROYECTOAED_console_autogen_timestamp_deps.dir
-C:/Users/hp/OneDrive - UNIVERSIDAD DE INGENIERIA Y TECNOLOGIA/Escritorio/proyectooooo/Proyecto-AED/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/PROYECTOAED_console_autogen.dir
-C:/Users/hp/OneDrive - UNIVERSIDAD DE INGENIERIA Y TECNOLOGIA/Escritorio/proyectooooo/Proyecto-AED/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/PROYECTOAED_gui_autogen_timestamp_deps.dir
-C:/Users/hp/OneDrive - UNIVERSIDAD DE INGENIERIA Y TECNOLOGIA/Escritorio/proyectooooo/Proyecto-AED/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/PROYECTOAED_gui_autogen.dir
