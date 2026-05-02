@@ -1,0 +1,6 @@
+set(__QT_DEPLOY_TARGET_PROYECTOAED_console_FILE C:/Users/hp/OneDrive - UNIVERSIDAD DE INGENIERIA Y TECNOLOGIA/Escritorio/proyectooooo/Proyecto-AED/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/PROYECTOAED_console.exe)
+set(__QT_DEPLOY_TARGET_PROYECTOAED_console_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_PROYECTOAED_console_RUNTIME_DLLS )
+set(__QT_DEPLOY_TARGET_PROYECTOAED_gui_FILE C:/Users/hp/OneDrive - UNIVERSIDAD DE INGENIERIA Y TECNOLOGIA/Escritorio/proyectooooo/Proyecto-AED/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/PROYECTOAED_gui.exe)
+set(__QT_DEPLOY_TARGET_PROYECTOAED_gui_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_PROYECTOAED_gui_RUNTIME_DLLS C:/Qt/6.11.0/mingw_64/bin/Qt6Widgets.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6Gui.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6Core.dll)

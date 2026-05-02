@@ -9,17 +9,16 @@ set(CMAKE_AUTORCC ON)
 
 include_directories(include)
 
-# ─────────────────────────────────────────────
 # Ejecutable de consola (tests / demo)
-# ─────────────────────────────────────────────
+
 add_executable(PROYECTOAED_console
     src/main.cpp
     src/SparseMatrix.cpp
 )
 
-# ─────────────────────────────────────────────
+
 # Ejecutable con interfaz gráfica Qt6
-# ─────────────────────────────────────────────
+
 find_package(Qt6 COMPONENTS Widgets QUIET)
 if(NOT Qt6_FOUND)
     find_package(Qt5 COMPONENTS Widgets QUIET)
