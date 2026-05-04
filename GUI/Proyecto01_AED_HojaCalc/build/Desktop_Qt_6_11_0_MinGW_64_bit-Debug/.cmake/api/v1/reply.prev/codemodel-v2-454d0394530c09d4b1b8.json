@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-6bbd2e58aaab5cbb743c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Proyecto01_AED_HojaCalc",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Proyecto01_AED_HojaCalc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Proyecto01_AED_HojaCalc-Debug-6648259b84ee8ceb7a10.json",
+					"name" : "Proyecto01_AED_HojaCalc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Proyecto01_AED_HojaCalc_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Proyecto01_AED_HojaCalc_autogen-Debug-a593ec6d51af35c23ba2.json",
+					"name" : "Proyecto01_AED_HojaCalc_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Proyecto01_AED_HojaCalc_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Proyecto01_AED_HojaCalc_autogen_timestamp_deps-Debug-c8614e33a120bcbccb3e.json",
+					"name" : "Proyecto01_AED_HojaCalc_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/salva/Desktop/AED PROYECTO/Proyecto-AED/GUI/Proyecto01_AED_HojaCalc/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug",
+		"source" : "C:/Users/salva/Desktop/AED PROYECTO/Proyecto-AED/GUI/Proyecto01_AED_HojaCalc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

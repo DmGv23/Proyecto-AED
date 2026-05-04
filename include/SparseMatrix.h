@@ -2,43 +2,63 @@
 #define SPARSEMATRIX_H
 
 #include "Node.h"
-#include "RowHeader.h"
-#include "ColHeader.h"
+#include "Header.h"
+#include <vector>
+#include <string>
 
-class SparseMatrix {
+class SparseMatrix
+{
 
 private:
-    RowHeader* rowHeaders;
-    ColHeader* colHeaders;
+    Header *rowHeaders; // lista de cabeceras de fila
+    Header *colHeaders; // lista de cabeceras de columna
+
+    bool isNumeric(const std::string &s) const;
+    double toDouble(const std::string &s) const;
+
+    // helpers internos para buscar/crear cabeceras
+    Header *findOrCreateRow(int r);
+    Header *findOrCreateCol(int c);
 
 public:
-    SparseMatrix();   // <- ya sin tamaños
+    SparseMatrix();
+    ~SparseMatrix();
 
-    void insertCell(int row,int col,std::string value);
+    // ── Operaciones básicas ──────────────────────────────
+    void insertCell(int row, int col, std::string value);
+    std::string getCell(int row, int col);
+    void modifyCell(int row, int col, std::string value);
+    void deleteCell(int row, int col);
 
-    std::string getCell(int row,int col);
-
-    void deleteCell(int row,int col);
-
+    // ── Filas y columnas ─────────────────────────────────
     void deleteRow(int row);
-
     void deleteColumn(int col);
+    void deleteRange(int r1, int c1, int r2, int c2);
 
-    int sumRow(int row);
-
-    int sumColumn(int col);
-
+    // ── Agregación: fila ─────────────────────────────────
+    double sumRow(int row);
     double averageRow(int row);
+    double findMaxRow(int row);
+    double findMinRow(int row);
 
-    int findMaxRow(int row);
+    // ── Agregación: columna ──────────────────────────────
+    double sumColumn(int col);
+    double averageColumn(int col);
+    double findMaxColumn(int col);
+    double findMinColumn(int col);
 
-    int findMinRow(int row);
+    // ── Agregación: rango ────────────────────────────────
+    double sumRange(int r1, int c1, int r2, int c2);
+    double averageRange(int r1, int c1, int r2, int c2);
+    double maxRange(int r1, int c1, int r2, int c2);
+    double minRange(int r1, int c1, int r2, int c2);
 
+    // ── Visualización ────────────────────────────────────
     void printOccupiedCells();
-
+    void printRow(int row);
     void printColumn(int col);
 
-    ~SparseMatrix();
+    std::vector<Node *> getAllNodes();
 };
 
-#endif
+#endif // SPARSEMATRIX_H

@@ -1,0 +1,9 @@
+C:/Users/salva/Desktop/AED PROYECTO/Proyecto-AED/GUI/Proyecto01_AED_HojaCalc/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/Proyecto01_AED_HojaCalc.dir
+C:/Users/salva/Desktop/AED PROYECTO/Proyecto-AED/GUI/Proyecto01_AED_HojaCalc/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/salva/Desktop/AED PROYECTO/Proyecto-AED/GUI/Proyecto01_AED_HojaCalc/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/salva/Desktop/AED PROYECTO/Proyecto-AED/GUI/Proyecto01_AED_HojaCalc/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+C:/Users/salva/Desktop/AED PROYECTO/Proyecto-AED/GUI/Proyecto01_AED_HojaCalc/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/install.dir
+C:/Users/salva/Desktop/AED PROYECTO/Proyecto-AED/GUI/Proyecto01_AED_HojaCalc/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+C:/Users/salva/Desktop/AED PROYECTO/Proyecto-AED/GUI/Proyecto01_AED_HojaCalc/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+C:/Users/salva/Desktop/AED PROYECTO/Proyecto-AED/GUI/Proyecto01_AED_HojaCalc/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/Proyecto01_AED_HojaCalc_autogen_timestamp_deps.dir
+C:/Users/salva/Desktop/AED PROYECTO/Proyecto-AED/GUI/Proyecto01_AED_HojaCalc/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/CMakeFiles/Proyecto01_AED_HojaCalc_autogen.dir

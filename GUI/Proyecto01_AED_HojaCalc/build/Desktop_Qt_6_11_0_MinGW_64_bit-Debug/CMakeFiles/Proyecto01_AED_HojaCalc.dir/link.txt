@@ -1,0 +1,3 @@
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\Proyecto01_AED_HojaCalc.dir/objects.a
+C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\Proyecto01_AED_HojaCalc.dir/objects.a @CMakeFiles\Proyecto01_AED_HojaCalc.dir\objects1.rsp
+C:\Qt\Tools\mingw1310_64\bin\g++.exe -g -mwindows -Wl,--whole-archive CMakeFiles\Proyecto01_AED_HojaCalc.dir/objects.a -Wl,--no-whole-archive -o Proyecto01_AED_HojaCalc.exe -Wl,--out-implib,libProyecto01_AED_HojaCalc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Proyecto01_AED_HojaCalc.dir\linkLibs.rsp
