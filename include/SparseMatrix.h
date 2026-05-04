@@ -56,6 +56,7 @@ public:
     // ── Visualización ────────────────────────────────────
     void printOccupiedCells();
     void printRow(int row);
+    void printRow(int row);
     void printColumn(int col);
 
     std::vector<Node *> getAllNodes();
