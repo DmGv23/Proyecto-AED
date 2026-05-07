@@ -43,20 +43,20 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         "onInsertar",
         "",
         "onModificar",
-        "onEliminarCelda",
-        "onConsultar",
-        "onIr",
         "onOpSeleccion",
         "onBorrarRango",
-        "onEliminarFila",
-        "onEliminarColumna",
+        "onLimpiarTodo",
+        "onConsultar",
         "onVerFila",
         "onVerColumna",
-        "onLimpiarTodo",
+        "onEliminarCelda",
+        "onEliminarFila",
+        "onEliminarColumna",
         "onCellChanged",
         "row",
         "col",
-        "onCellClicked"
+        "onCellClicked",
+        "onIr"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -64,34 +64,34 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         QtMocHelpers::SlotData<void()>(1, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'onModificar'
         QtMocHelpers::SlotData<void()>(3, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'onEliminarCelda'
-        QtMocHelpers::SlotData<void()>(4, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'onConsultar'
-        QtMocHelpers::SlotData<void()>(5, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'onIr'
-        QtMocHelpers::SlotData<void()>(6, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'onOpSeleccion'
-        QtMocHelpers::SlotData<void()>(7, 2, QMC::AccessPrivate, QMetaType::Void),
+        QtMocHelpers::SlotData<void()>(4, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'onBorrarRango'
-        QtMocHelpers::SlotData<void()>(8, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'onEliminarFila'
-        QtMocHelpers::SlotData<void()>(9, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'onEliminarColumna'
-        QtMocHelpers::SlotData<void()>(10, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'onVerFila'
-        QtMocHelpers::SlotData<void()>(11, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'onVerColumna'
-        QtMocHelpers::SlotData<void()>(12, 2, QMC::AccessPrivate, QMetaType::Void),
+        QtMocHelpers::SlotData<void()>(5, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'onLimpiarTodo'
-        QtMocHelpers::SlotData<void()>(13, 2, QMC::AccessPrivate, QMetaType::Void),
+        QtMocHelpers::SlotData<void()>(6, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onConsultar'
+        QtMocHelpers::SlotData<void()>(7, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onVerFila'
+        QtMocHelpers::SlotData<void()>(8, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onVerColumna'
+        QtMocHelpers::SlotData<void()>(9, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onEliminarCelda'
+        QtMocHelpers::SlotData<void()>(10, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onEliminarFila'
+        QtMocHelpers::SlotData<void()>(11, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onEliminarColumna'
+        QtMocHelpers::SlotData<void()>(12, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'onCellChanged'
-        QtMocHelpers::SlotData<void(int, int)>(14, 2, QMC::AccessPrivate, QMetaType::Void, {{
-            { QMetaType::Int, 15 }, { QMetaType::Int, 16 },
+        QtMocHelpers::SlotData<void(int, int)>(13, 2, QMC::AccessPrivate, QMetaType::Void, {{
+            { QMetaType::Int, 14 }, { QMetaType::Int, 15 },
         }}),
         // Slot 'onCellClicked'
-        QtMocHelpers::SlotData<void(int, int)>(17, 2, QMC::AccessPrivate, QMetaType::Void, {{
-            { QMetaType::Int, 15 }, { QMetaType::Int, 16 },
+        QtMocHelpers::SlotData<void(int, int)>(16, 2, QMC::AccessPrivate, QMetaType::Void, {{
+            { QMetaType::Int, 14 }, { QMetaType::Int, 15 },
         }}),
+        // Slot 'onIr'
+        QtMocHelpers::SlotData<void()>(17, 2, QMC::AccessPrivate, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -117,18 +117,18 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         switch (_id) {
         case 0: _t->onInsertar(); break;
         case 1: _t->onModificar(); break;
-        case 2: _t->onEliminarCelda(); break;
-        case 3: _t->onConsultar(); break;
-        case 4: _t->onIr(); break;
-        case 5: _t->onOpSeleccion(); break;
-        case 6: _t->onBorrarRango(); break;
-        case 7: _t->onEliminarFila(); break;
-        case 8: _t->onEliminarColumna(); break;
-        case 9: _t->onVerFila(); break;
-        case 10: _t->onVerColumna(); break;
-        case 11: _t->onLimpiarTodo(); break;
-        case 12: _t->onCellChanged((*reinterpret_cast<std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<int>>(_a[2]))); break;
-        case 13: _t->onCellClicked((*reinterpret_cast<std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<int>>(_a[2]))); break;
+        case 2: _t->onOpSeleccion(); break;
+        case 3: _t->onBorrarRango(); break;
+        case 4: _t->onLimpiarTodo(); break;
+        case 5: _t->onConsultar(); break;
+        case 6: _t->onVerFila(); break;
+        case 7: _t->onVerColumna(); break;
+        case 8: _t->onEliminarCelda(); break;
+        case 9: _t->onEliminarFila(); break;
+        case 10: _t->onEliminarColumna(); break;
+        case 11: _t->onCellChanged((*reinterpret_cast<std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<int>>(_a[2]))); break;
+        case 12: _t->onCellClicked((*reinterpret_cast<std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<int>>(_a[2]))); break;
+        case 13: _t->onIr(); break;
         default: ;
         }
     }

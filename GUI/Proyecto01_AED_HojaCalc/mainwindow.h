@@ -19,41 +19,51 @@ public:
     ~MainWindow() override;
 
 private slots:
+    // ── Barra superior: escritura ──────────────────────
     void onInsertar();
     void onModificar();
-    void onEliminarCelda();
-    void onConsultar();
-    void onIr();
-
-    void onOpSeleccion();   // maneja Suma/Prom/Máx/Mín según combo
+    void onOpSeleccion();
     void onBorrarRango();
-
-    void onEliminarFila();
-    void onEliminarColumna();
-    void onVerFila();
-    void onVerColumna();
-
     void onLimpiarTodo();
 
+    // ── Barra lateral: lectura / eliminación ───────────
+    void onConsultar();
+    void onVerFila();
+    void onVerColumna();
+    void onEliminarCelda();
+    void onEliminarFila();
+    void onEliminarColumna();
+
+    // ── Tabla ──────────────────────────────────────────
     void onCellChanged(int row, int col);
     void onCellClicked(int row, int col);
+    void onIr();
 
 private:
+    // helpers
     void    traducirCoordenada(const QString &coord, int &r, int &c);
     QString coordToLabel(int row, int col);
     void    refreshGrid();
     void    expandIfNeeded(int row, int col);
     void    log(const QString &msg);
+    void    showError(const QString &msg);   // ← nuevo: popup de error
 
     QList<QPair<int,int>> resolverRango(const QString &texto);
-    double operarSobreCeldas(const QList<QPair<int,int>> &celdas, int op, int &count);
 
+    // Devuelve false y llama showError() si el rango mezcla tipos
+    bool operarSobreCeldas(const QList<QPair<int,int>> &celdas,
+                           int op, double &result, int &count);
+
+    // ── Widgets barra superior ─────────────────────────
     QTableWidget *table;
     QLineEdit    *edtCelda;
     QLineEdit    *edtValor;
     QLineEdit    *edtRango;
     QComboBox    *cmbOpSel;
     QLabel       *lblStatus;
+
+    // ── Widgets barra lateral ──────────────────────────
+    QLabel       *sideInfoLabel;   // muestra resultado de consulta en el panel
 
     SparseMatrix sheet;
     bool         ignorarCambios = false;
