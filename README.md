@@ -2,7 +2,13 @@
 
 **Curso:** Algoritmos y Estructuras de Datos  
 **Lenguaje:** C++17 &nbsp;|&nbsp; **GUI:** Qt6 (fallback Qt5)  
-**Integrantes:** _(completar con nombres del grupo)_
+**Integrantes:**
+```
+-Dana Nickol Gala Vasquez
+-Maricielo Valverde Quispe
+-Eduardo Salvador Guevara Vargas
+```
+
 
 ---
 
